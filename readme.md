@@ -1,12 +1,4 @@
----
-title: CSS Positioning Lab
-type: lab
-duration: "1:25"
-creator:
-  name: Alex Chin
-  city: London
-competencies: HTML and CSS
----
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
 # CSS Positioning Lab
 
@@ -22,6 +14,8 @@ There's a bit of starter code, so you can jump right into it.
 
 #### Requirements
 
+- Fork this repo
+- Clone this repo into your `~/code/labs`
 - Use display, clear, and floats to position elements on the page
 - Look up and use CSS properties and values that may not have been covered in class, for example:
   - `background: url("YOUR-LINK.COM")`
@@ -35,7 +29,18 @@ There's a bit of starter code, so you can jump right into it.
   - Instagram Logo
   - Login button
 
+#### Submission
 
+- Upon completion, run the following commands
+
+  ```
+  git add .
+  git commit -m "done"
+  git push origin master
+  ```
+
+- Navigate to your repo and create a Pull Request
+- Put the link to Pull Request to the [Student Excel File](https://docs.google.com/spreadsheets/d/14_tEPo2gGLe6K7FyWRoa0MqjO1HkxNNynU8VHvsDacY/edit#gid=0)
 
 #### Starter code
 
