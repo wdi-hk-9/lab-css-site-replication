@@ -4,7 +4,79 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h1 {
+	color: #06365f;
+}
+span {
+	padding-left: 20px;
+}
+#button{
+	height: 50px;
+	width: 90px;
+	background-color: #99CCFF;
+	margin-top: 8%;
+	margin-left: 80%;
+	float: left;
+	position: relative;
+	border-radius: 5%;
+	border-color: #6699FF;
+}
+
+#home-icon{
+
+}
+#container{
+	height:300px;
+	width: 100%;
+	background-color:#06365f;}
+#phone img {
+	margin-top: 8%;
+	margin-left: 20%;
+	float: left;
+	position: absolute;
+}
+#brand img {
+	margin-top: 8%;
+	margin-left: 50%;
+	float: left;
+	position: absolute;
+
+}
+#content{
+	float:right;
+	width:40%;
+	margin-top: 14%;
+	margin-left: 50%;
+	position: absolute;
+	background:white;
+	border-radius: 5%;
+	padding: 0 5px 0 5px;
+}
+
+.download{
+	text-align: center; 
+	padding-left: 10px;
+}
+
+#footer{
+	width:100%;
+	text-align: center;
+	margin-top: 26%;
+	margin-bottom: 5%;
+	color: #1c5380;
+	font-size: 12px;
+}
+
+#footer-color{
+	color: gray;
+}
+
+
+
+
