@@ -18,7 +18,7 @@ span {
 }
 #button{
 	height: 50px;
-	width: 90px;
+	width: 50px;
 	background-color: #99CCFF;
 	margin-top: 8%;
 	margin-left: 80%;
@@ -26,11 +26,16 @@ span {
 	position: relative;
 	border-radius: 5%;
 	border-color: #6699FF;
+	border: 1px solid white;
+	padding-right: 50px;
+	color: 3px white;
+	text-align: left;
 }
 
 #home-icon{
 
 }
+
 #container{
 	height:300px;
 	width: 100%;
