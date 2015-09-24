@@ -6,5 +6,96 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background: #fff url("../images/bgtile.png") repeat-x;
+
 }
+
+#content{
+	width: 1000px;
+	position:200px;
+	margin: 100px auto;
+
+}
+
+#heroImages {
+width: 800px;
+display: inline;
+margin: 10px;
+
+}
+
+#contentOnLeft{
+
+display: inline;
+margin: 10px;
+width: 640px;
+height: 512px;
+float:right;
+
+}
+
+header{
+	height: 78px;
+}
+
+
+button {
+    height: 50px;
+    width: 118px;
+    position: relative;
+    margin: 0px;
+    right: -60px;
+    top: -35px;
+    border-radius: 2px;
+    background: linear-gradient(#6c90ad, #4a7598);
+    color: white;
+}
+
+#homeicon{
+	position: relative;
+    margin-top: 10px;
+}
+
+span{
+	float: right;
+    margin: 10px;
+    font-size: 18px;
+}
+
+#frame {
+  	background: url("../images/frame.png") no-repeat;
+    height: 390px;
+    width: 490px;
+    padding: 30px
+}
+
+h1{
+	font-size: 33px;
+	margin:0px;
+}
+
+p {
+    font-size: 15px;
+    width: 431px;
+}
+
+footer{
+	postion: relative;
+	margin: 0px auto;
+}
+
+footer ul{
+	clear: both;
+	margin: 0 10px;
+	text-align: center;
+	list-style: none;
+}
+
+footer ul li{
+	display: inline;
+	margin: 0 10px;
+	text-transform: uppercase
+	text-align: center;
+	list-style: none;
+}
+
