@@ -29,11 +29,14 @@ span {
 	border: 1px solid white;
 	padding-right: 50px;
 	color: 3px white;
-	text-align: left;
+	text-align: right;
 }
 
 #home-icon{
-
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	margin-top: 10px;
 }
 
 #container{

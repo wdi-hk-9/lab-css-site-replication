@@ -1,0 +1,84 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+/*	#fff, white
+	../images, .. to go back one folder from CSS
+	repeat-x, repeats horizontally
+*/
+
+body {
+  background: #fff url('../images/bgtile.png') repeat-x; font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+main {
+	width: 800px;
+	margin: 90px auto;
+}
+
+
+main section.section-Left { 
+	float: left;
+}
+
+main section.section-Right{
+	float: right;
+	width: 450px;
+}
+
+main section.section-Right nav button.home{
+	border-radius: 5px;
+	float: right;
+	margin: 20px;
+	background: linear-gradient(#06365f, #6c90ad);
+}
+
+main section.section-Right nav button.home a{
+	text-decoration: none;
+}
+
+main section.section-Right nav button.home span{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+	
+main section.section-Right article {
+  background: url('../images/frame.png') no-repeat;
+  padding: 40px;
+}
+
+main section.section-Right h1 {
+	font-size: 27px;
+	margin-top: 0;
+	color: #06365f;
+}
+
+main section.section-Right article img{
+	padding: 0 10px 10px;
+}
+
+footer ul{
+	clear: both;
+	list-style: none;
+	text-align: center;
+}
+
+footer ul li{
+	display: inline;
+	margin: 0 7px;
+	text-transform: uppercase;
+	color: #696969;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: #1c5380
+}
+
+footer ul li a:hover{
+	text-decoration: underline;
+}
