@@ -6,5 +6,76 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background:url(../images/bgtile.png) repeat-x;
+}
+
+section{
+	margin:100px auto;
+	text-align:center;
+	letter-spacing:0.05em;
+}
+h1{
+	color:#1c5380;
+	font-size:1.6em;
+	padding-top:0px;
+}
+
+.info{
+	background:url(../images/frame.png) no-repeat;
+	background-size:contain;
+	padding:10px 40px;
+	text-align:left;
+	display:block;
+	max-width:480px;
+
+}
+#phone{
+	float:left;
+}
+.brandtop{
+	background:url(../images/brand.png);
+	background-repeat:no-repeat;
+	background-size:314px 78px;
+	height:78px;
+	text-align:right;
+	padding-top:20px;
+	margin:0;
+	display:block;
+	max-width:560px;
+}
+#login{
+	background-image:url(../images/home.png),  linear-gradient(to bottom, lightBlue, #06365f);
+	background-repeat:no-repeat;
+	background-position:10% 50%;
+	height:35px;
+	width:90px;
+	border:1px #1c5830 solid;
+	padding:3px 0px 3px 27px;
+	color:#fff;
+	font-size:12px;
+	border-radius:3px;
+	letter-spacing:0.05em;
+
+}
+section article{
+	display:inline-block;
+	vertical-align:top;
+	padding:0px 20px;
+}
+footer{
+	display:inline;
+	color:gray;
+	font-size:0.9em;
+}
+#navlist{
+	margin:0 auto;
+	text-align:center;
+}
+#navlist li{
+	list-style:none;
+	display:inline;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#1c5380;
+	padding-right:10px;
 }
