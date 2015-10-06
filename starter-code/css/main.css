@@ -4,7 +4,30 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/*Body CSS*/
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: #fff url("../images/bgtile.png") repeat-x;
+}
+
+/*Main CSS*/
+main{
+	width: 880px;
+	margin: 150px auto 0;
+}
+
+main section.section-left {
+	float: left;	
+	width: 500px;
+}
+
+main section.section-right {
+	float: right;
+	width: 500px;
+}
+
+main section.section-right article {
+	background: url("../images/frame.png") no-repeat;
+	padding: 40px;
 }
